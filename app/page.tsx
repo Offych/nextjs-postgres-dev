@@ -7,7 +7,7 @@ export default async function Home() {
   const posts = await prisma.post.findMany();
 
   return (
-    <div className="container mx-auto p-4 flex flex-col gap-4">
+    <div className="container mx-auto p-4 flex flex-col gap-3">
       <ModeToggle />
 
 
